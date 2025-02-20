@@ -4,20 +4,21 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.11.8",
-    "@emotion/react": "^11.4.1",
+    "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.1",
     "@mui/lab": "^5.0.0-alpha.173",
     "@mui/material": "^5.0.1",
     "@mui/styles": "^5.0.1",
     "@react-google-maps/api": "^2.0.2",
-    "@sentry/react": "^9.1.0",
-    "@sentry/tracing": "^6.16.1",
+
+    "@sentry/react": "^6.16.1",
+    "@sentry/tracing": "^7.120.3",
     "@types/react": "^17.0.24",
     "amplitude-js": "^8.14.1",
     "autosuggest-highlight": "^3.1.1",
     "clsx": "^1.1.1",
-    "date-fns": "^2.0.0-beta.5",
+    "date-fns": "^4.1.0",
     "env-cmd": "^10.1.0",
     "firebase": "^9.4.0",
     "flatlist-react": "^1.5.0",
@@ -49,7 +50,7 @@
     "stripe": "^16.11.0",
     "subscriptions-transport-ws": "^0.9.19",
     "uuid": "^8.3.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
